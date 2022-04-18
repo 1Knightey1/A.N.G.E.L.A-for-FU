@@ -1,0 +1,163 @@
+[
+  {
+    "op": "add",
+    "path": "/futestdrive00",
+    "value": {
+      "unique": false,
+      "text": "Welcome to your new mech. Before we begin, if you want to collect the goods from the crates in front of you, exit the mech by pressing ^#FF1493;[E]^reset;. These supplies will come in handy later.",
+      "portraitImage": "talk.<frame>",
+      "textSpeed": 50
+    }
+  },
+
+  {
+    "op": "add",
+    "path": "/biomeplaceholder_mech",
+    "value": {
+      "unique": false,
+      "text": "I warn you; your vehicle is not certified \nfor this ^#FF1493;weird^reset; environment!\nDisregarding this warning may cause pilot death and/or invalidation of vehicle warranty.",
+      "portraitImage": "yell.<frame>",
+      "textSpeed": 50
+    }
+  },
+  {
+    "op": "add",
+    "path": "/biomepressure_mech",
+    "value": {
+      "unique": false,
+      "text": "Warning: your vehicle is not certified \nfor this ^#A0522D;high pressure^reset; environment!\nDisregarding this warning may cause pilot death and/or invalidation of vehicle warranty.",
+      "portraitImage": "yell.<frame>",
+      "textSpeed": 50
+    }
+  },
+  {
+    "op": "add",
+    "path": "/biomeproto_mech",
+    "value": {
+      "unique": false,
+      "text": "I warn you; your vehicle is not certified \nfor this ^#9ACD32;proto^reset; environment!\nDisregarding this warning may cause pilot death and/or invalidation of vehicle warranty.",
+      "portraitImage": "yell.<frame>",
+      "textSpeed": 50
+    }
+  },
+  {
+    "op": "add",
+    "path": "/biomeelectric_mech",
+    "value": {
+      "unique": false,
+      "text": "I warn you; your vehicle is not certified \nfor this ^#6A5ACD;electric^reset; environment!\nDisregarding this warning may cause pilot death and/or invalidation of vehicle warranty.",
+      "portraitImage": "yell.<frame>",
+      "textSpeed": 50
+    }
+  },
+  {
+    "op": "add",
+    "path": "/biomepoison_mech",
+    "value": {
+      "unique": false,
+      "text": "Warning: your vehicle is not certified \nfor this ^#32CD32;poisonous^reset; environment!\nDisregarding this warning may cause pilot death and/or invalidation of vehicle warranty.",
+      "portraitImage": "yell.<frame>",
+      "textSpeed": 50
+    }
+  },
+  {
+    "op": "add",
+    "path": "/biomeradiation_mech",
+    "value": {
+      "unique": false,
+      "text": "Warning: Your vehicle is not certified \nfor this ^#00FF00;radioactive^reset; environment!\nDisregarding this warning may cause pilot death and/or invalidation of vehicle warranty.",
+      "portraitImage": "yell.<frame>",
+      "textSpeed": 50
+    }
+  },
+  {
+    "op": "add",
+    "path": "/biomecold_mech",
+    "value": {
+      "unique": false,
+      "text": "Warning: Your vehicle is not certified \nfor this ^#00BFFF;cold^reset; environment!\nDisregarding this warning may cause pilot death and/or invalidation of vehicle warranty.",
+      "portraitImage": "yell.<frame>",
+      "textSpeed": 50
+    }
+  },
+  {
+    "op": "add",
+    "path": "/biomeheat_mech",
+    "value": {
+      "unique": false,
+      "text": "I warn you: Your vehicle is not certified \nfor this ^#FF4500;hot^reset; environment!\nDisregarding this warning may cause pilot death and/or invalidation of vehicle warranty.",
+      "portraitImage": "yell.<frame>",
+      "textSpeed": 50
+    }
+  },
+  {
+    "op": "add",
+    "path": "/aether_mech",
+    "value": {
+      "unique": false,
+      "text": "This fluid is rapidly shorting out every system on board the mech. We should leave this liquid soon or risk death.",
+      "portraitImage": "yell.<frame>",
+      "textSpeed": 50
+    }
+  },
+  {
+    "op": "add",
+    "path": "/proto_mech",
+    "value": {
+      "unique": false,
+      "text": "Curious. This liquid appears to be restoring your mechs energy, rather than causing negative effects.",
+      "portraitImage": "talk.<frame>",
+      "textSpeed": 50
+    }
+  },
+  {
+    "op": "add",
+    "path": "/lava_mech",
+    "value": {
+      "unique": false,
+      "text": "Your mech's temperature control systems are failing, evacuate immediately.",
+      "portraitImage": "yell.<frame>",
+      "textSpeed": 50
+    }
+  },
+  {
+    "op": "add",
+    "path": "/darkwater_mech",
+    "value": {
+      "unique": false,
+      "text": "This poisonous water seems to seep into your mechs components and cause serious issues. You should get out.",
+      "portraitImage": "yell.<frame>",
+      "textSpeed": 50
+    }
+  },
+  {
+    "op": "add",
+    "path": "/nitrogen_mech",
+    "value": {
+      "unique": false,
+      "text": "Your mechs servos and components are rapidly freezing within the liquid nitrogen. That isn't a good thing. Evacuate soon or you will know regret.",
+      "portraitImage": "yell.<frame>",
+      "textSpeed": 50
+    }
+  },
+  {
+    "op": "add",
+    "path": "/acid_mech",
+    "value": {
+      "unique": false,
+      "text": "Sulphuric acid has compromised your mech plating. I suggest leaving the liquid immediately.",
+      "portraitImage": "yell.<frame>",
+      "textSpeed": 50
+    }
+  },
+  {
+    "op": "add",
+    "path": "/elder_mech",
+    "value": {
+      "unique": false,
+      "text": "Essentia Obscura is rapidly turning your mech into pudding. Get out of it.",
+      "portraitImage": "yell.<frame>",
+      "textSpeed": 50
+    }
+  }
+]

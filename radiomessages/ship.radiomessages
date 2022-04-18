@@ -1,0 +1,16 @@
+{
+  "activeCrewLimit" : {
+    "type" : "tutorial",
+    "text" : "The maximum number of crew members is selected. Leave some on the ship to expand the crew in the future.",
+    "unique" : false
+  },
+  "crewLimit" : {
+    "type" : "tutorial",
+    "text" : "Your ship cannot accommodate another crew member. Find a way to increase the size of your ship, or fire some crew members.",
+    "unique" : false
+  },
+  "gainedCrewMember" : {
+    "type" : "tutorial",
+    "text" : "A new employee has been discovered on the ship. I am ready to help manage them and track their status."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "author" : "SugaryCup",
+  "description" : " ^#B0C4DE;\"Hello, dear cadet of Terrene Protectorate.\n We gladly inform you that you have been chosen for an elaboration between Terrene Protectorate and Lobotomy Corporation. You will be provided with Autonomous Next Gen Electronic Lifeform Assistant, also known as 'A.N.G.E.L.A' which will help you through your study and work as Protector.\n All questions regarding collaboration and A.N.G.E.L.A you can ask at the... <further text is missing due to paper damage>\"^white;\n - Flyer of Partipation.",
+  "friendlyName" : "A.N.G.E.L.A for FU",
+  "includes" : ["FrackinUniverse"],
+  "link" : "steam://url/CommunityFilePage/2795539792",
+  "name" : "A.N.G.E.L.A",
+  "priority" : 99,
+  "requires" : [],
+  "steamContentId" : "2795539792",
+  "tags" : "User Interface",
+  "version" : "The First Day"
+}

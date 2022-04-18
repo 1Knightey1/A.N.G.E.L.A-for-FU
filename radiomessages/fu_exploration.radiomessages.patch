@@ -1,0 +1,26 @@
+[
+	{
+		"op": "test",
+		"path": "/fubiomeradiation"
+	},
+	{
+		"op": "replace",
+		"path": "/fubiomeradiation/portraitImage",
+		"value": "/ai/portraits/angela_portrait.png:talk.<frame>"
+	},
+	{
+		"op": "replace",
+		"path": "/fubiomepressure/portraitImage",
+		"value": "/ai/portraits/angela_portrait.png:talk.<frame>"
+	},
+	{
+		"op": "replace",
+		"path": "/fubiomecold/portraitImage",
+		"value": "/ai/portraits/angela_portrait.png:talk.<frame>"
+	},
+	{
+		"op": "replace",
+		"path": "/fubiomeheat/portraitImage",
+		"value": "/ai/portraits/angela_portrait.png:talk.<frame>"
+	}
+]

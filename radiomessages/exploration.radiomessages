@@ -1,0 +1,41 @@
+{
+  "ancientgateway" : {
+    "text" : "Ancient ruins like these can be found found all over the Galaxy. There is a large instrumental abnormality nearby. Presumably, a kind of teleportation device."
+  },
+
+  "techconsole" : {
+    "text" : "The console in this room is designed to control your Tech equipment. It allows you to install and change abilities."
+  },
+
+  "biomeradiation" : {
+    "unique" : false,
+    "text" : "Please note that the level of radiation on this planet is deadly for you.\nDo not attempt to conduct further research without special protective equipment.",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 50
+  },
+
+  "biomecold" : {
+    "unique" : false,
+    "text" : "I inform you that the temperature of the environment on this planet is extremely low.\nDo not attempt to conduct further research without special protective equipment.",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 50
+  },
+
+  "biomeheat" : {
+    "unique" : false,
+    "text" : "I warn you that the temperature of this planet is extremely high.\nDo not attempt to conduct further research without special protective equipment.",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 50
+  },
+
+  "biomeairless" : {
+    "unique" : false,
+    "text" : "It is worth mentioning that this celestial body is devoid of atmosphere and that you are slowly suffocating. I suggest you come back here with an equipped breathing EPP.",
+    "textSpeed" : 70
+  },
+
+  "erchiussickness" : {
+    "unique" : false,
+    "text" : "Creatures have been discovered which are attracted by lunar deposits of liquid erchius. Threat level is ^red;\"ALEPH\"^white;. Every time you collect fuel, their interest in you increases. I hope you are a fast runner."
+  }
+}

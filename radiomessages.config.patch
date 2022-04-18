@@ -1,0 +1,17 @@
+[
+	{
+		"op": "replace",
+		"path": "/messageDefaults/senderName",
+		"value": "ANGELA"
+	},
+	{
+		"op": "replace",
+		"path": "/messageDefaults/chatterSound",
+		"value": "/sfx/interface/angelachatter_slow_loop.ogg"
+	},
+	{
+		"op": "replace",
+		"path": "/messageDefaults/portraitImage",
+		"value": "/ai/portraits/angela_portrait.png:talk.<frame>"
+	}
+]

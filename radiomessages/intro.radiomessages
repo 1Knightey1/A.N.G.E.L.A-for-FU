@@ -1,0 +1,92 @@
+{
+  "protectorateExitBedPester" : {
+    "type" : "mission",
+    "text" : "Good morning, graduate. You have overslept. ^#71f2f6;Press the A or D button to get out of bed^white;."
+  },
+
+  "protectorateDormRoomTutorial" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "To interact with the nearest people, doors, and other objects, you have to ^#71f2f6;hover the cursor and press E^white;, if you have woken up enough, of course."
+  },
+
+  "protectorateDormRoomPester" : {
+    "type" : "mission",
+    "text" : "Remember, you can open the door, ^#71f2f6;by hovering the cursor over it and pressing E^white;."
+  },
+
+  "protectorateLoungeTutorial" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "Your uniform is hanging in your personal locker... It is commendable that even in a hurry you keep calm as well as I do. Decent behavior."
+  },
+
+  "protectorateStage5" : {
+    "type" : "mission",
+    "text" : "It's not safe to stay here. ^#71f2f6;Please take the Matter Manipulator^white;. Proceed to the launch pad."
+  },
+
+  "protectorateCollapsedGalleryNoMM" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "Pick up the Matter Manipulator dropped by the Grand Protector - it will raise your chances of survival."
+  },
+
+  "protectorateCollapsedGallery" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "It seems the ceiling has collapsed. The manipulator can remove this dirt. ^#71f2f6;Press R to select it^white;, then point the cursor at the rubble and hold the left button^#71f2f6;^white;."
+  },
+
+  "protectorateCollapsedGalleryPester" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "Use the Matter Manipulator to clear the rubble. ^#71f2f6;Press the R key to select it^white;."
+  },
+
+  "protectorateFloodedDoor" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "According to my data, the space ahead is flooded, moving through it will lead to asphyxia. I advise you to choose a path with a higher oxygen content. ^#71f2f6;Use the space bar^white; to jump onto platforms."
+  },
+
+  "protectorateRooftop" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "The scale of the disaster is immesurable, I cannot estimate how great the destruction is. You must leave this planet immediately."
+  },
+
+  "protectorateDuct" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "In order to jump off the platform, you must ^#71f2f6;hold the S button to sit down, and then press the space bar^white;."
+  },
+
+  "protectorateDuctPester" : {
+    "type" : "mission",
+    "text" : "Hurry up. I recommend jumping off the platform, and don't worry about the safety of your legs. ^#71F2F6;Hold S to sit down, and then press the space bar^white;."
+  },
+
+  "protectorateGetWeapon" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "There are weapons in a container on a conveyor belt. It's time to arm yourself."
+  },
+
+  "protectorateWeaponPester" : {
+    "type" : "mission",
+    "text" : "Quick access to weapons is possible ^#71f2f6;by numeric keys^white;. Place it in one of the slots on top and ^#71f2f6;press the corresponding numeric key^white; to pick it up."
+  },
+
+  "protectorateTentacleBarrier" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "To reach the shuttle, it is necessary to destroy the tentacle. I suggest we take the weapons from this container."
+  },
+
+  "protectorateShipPlatform" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "We managed to skip the preflight check. Follow on board."
+  }
+}

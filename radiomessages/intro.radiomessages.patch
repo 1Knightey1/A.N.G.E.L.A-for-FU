@@ -1,0 +1,7 @@
+[
+	{
+    "op": "replace",
+    "path": "/protectorateExitBedPester/text",
+	"value": "Good morning, graduate. You have overslept. ^#71f2f6;Press the A or D button to get out of bed^white;."
+	}
+]

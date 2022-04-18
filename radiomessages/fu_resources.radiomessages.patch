@@ -1,0 +1,11 @@
+[
+	{
+		"op": "test",
+		"path": "/fuArtifact"
+	},
+	{
+		"op": "replace",
+		"path": "/fuArtifact/portraitImage",
+		"value": "/ai/portraits/angela_portrait.png:talk.<frame>"
+	}
+]
