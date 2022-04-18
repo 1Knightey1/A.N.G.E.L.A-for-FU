@@ -1,0 +1,93 @@
+// /cinema "/cinematics/intro/introstart.cinematic"
+
+[
+	{
+		"op": "replace",
+		"path": "/panels/3",
+		"value": {
+			"startTime": 2.0,
+			"endTime": 6.0,
+			"drawables": [
+				{
+					"image": "/ai/portraits/angela_portrait.png:talk.<frame>"
+				}
+			],
+			"animationFrames": 4,
+			"text": "Wake up, sleeping beauty.",
+			"textPosition" : {
+			"position" : [34, 21],
+			"vAnchor" : "top",
+			"wrapWidth" : 218
+			},
+			"keyframes" : [
+			{
+			"timecode" : 0.0,
+			"alpha" : 1.0,
+			"zoom" : 1.0,
+			"position" : [366.5, 100],
+			"frame" : 0,
+			"textPercentage" : 0
+			},
+			{
+			"timecode" : 0.3,
+			"textPercentage" : 0
+			},
+			{
+			"timecode" : 1,
+			"frame" : 4,
+			"textPercentage" : 1
+			}
+			]
+		}
+	},
+	{
+		"op": "replace",
+		"path": "/panels/4",
+		"value": {
+			"startTime": 5.99,
+			"endTime": 9.5,
+			"drawables": [
+				{
+					"image": "/ai/portraits/angela_portrait.png:talk.<frame>"
+				}
+			],
+			"animationFrames": 4,
+			"text": "You're oversleeping, wake up.",
+			"textPosition" : {
+				"position" : [34, 21],
+				"vAnchor" : "top",
+				"wrapWidth" : 218
+			},
+			"keyframes" : [
+			{
+			"timecode" : 0,
+			"zoom" : 1.0,
+			"position" : [366.5, 100]
+			},
+			{
+			"timecode" : 0.1,
+			"alpha" : 1.0,
+			"zoom" : 1.0,
+			"position" : [366.5, 100],
+			"frame" : 0,
+			"textPercentage" : 0
+			},
+			{
+			"timecode" : 1.5,
+			"frame" : 8,
+			"textPercentage" : 1
+			}
+			]
+		}
+	},
+	{
+		"op": "replace",
+		"path": "/audio/1/resource",
+		"value": "/sfx/interface/angelachatter_slow_loop.ogg"
+	},
+	{
+		"op": "replace",
+		"path": "/audio/2/resource",
+		"value": "/sfx/interface/angelachatter_slow_loop.ogg"
+	}
+]

@@ -1,0 +1,17 @@
+[
+{
+	"op": "replace", 
+	"path": "/chatterSound", 
+	"value": "/sfx/interface/angelachatter_slow_loop.ogg"
+},
+{
+	"op": "replace", 
+	"path": "/guiConfig/windowtitle/title", 
+	"value": "A.N.G.E.L.A"
+},
+{
+	"op": "replace",
+	"path": "/guiConfig/windowtitle/subtitle",
+	"value":"Autonomous Next Gen Electronic Lifeform Assistant"
+}	  
+]
