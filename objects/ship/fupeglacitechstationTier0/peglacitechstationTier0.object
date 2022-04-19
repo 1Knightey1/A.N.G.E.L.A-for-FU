@@ -1,0 +1,39 @@
+{
+  "objectName" : "fupeglacitechstationTier0",
+  "colonyTags" : [ "peglaci" ],
+  "rarity" : "Common",
+  "printable" : false,
+
+  "interactAction" : "ScriptPane",
+  "interactData" : "/zb/newSail/newSail.config",
+
+
+  "category" : "decorative",
+
+  "description" : "Autonomous Next Gen Electronic Lifeform Assistant, or A.N.G.E.L.A for short.",
+  "shortdescription" : "A.N.G.E.L.A",
+  "race" : "fupeglaci",
+
+  "apexDescription" : "When it's working, I can talk to ANGELA through this console.",
+  "avianDescription" : "Rebooting this station should enable me to talk to ANGELA.",
+  "floranDescription" : "Floran fix thisss panel to wake ship up!",
+  "glitchDescription" : "Distressed. I first need to reboot this station to communicate with ANGELA.",
+  "humanDescription" : "If I can reboot this station ANGELA should come back online!",
+  "hylotlDescription" : "This console will allow me to communicate with ANGELA. I need to reboot it first.",
+  "novakidDescription" : "Time to reboot this station so I can talk to ANGELA.",
+  "peglaciDescription" : "This console will allow me to communicate with ANGELA. I need to reboot it first.",
+
+  "inventoryIcon" : "peglacitechstationTier0icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "peglacitechstationTier0.png:<color>",
+      "imagePosition" : [-12, 2],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}
