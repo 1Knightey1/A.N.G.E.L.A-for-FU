@@ -94,6 +94,7 @@
 			"staticFrames" : "staticskath.png"
 		}
 	},
+	
 	{ "op" : "add",
 	"path" : "/species/fupeglaci",
 	"value" : {
