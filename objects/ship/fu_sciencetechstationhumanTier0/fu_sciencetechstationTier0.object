@@ -1,0 +1,76 @@
+{
+  "objectName" : "fu_sciencetechstationhumanTier0",
+  "colonyTags" : ["science"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "interactAction" : "ScriptPane",
+
+  "category" : "decorative",
+  "lightColor" : [99, 132, 153],
+  "lightPosition" : [-1, 0],
+
+  "flickerDistance" : 1.0,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 8,
+
+  "description" : "Autonomous Next Gen Electronic Lifeform Assistant, or A.N.G.E.L.A for short.",
+  "shortdescription" : "Science A.N.G.E.L.A",
+  "race" : "human",
+
+  "apexDescription" : "When it's working, I can talk to ANGELA through this console.",
+  "avianDescription" : "Rebooting this station should enable me to talk to ANGELA.",
+  "floranDescription" : "Floran fix thisss panel to wake ship up!",
+  "glitchDescription" : "Distressed. I first need to reboot this station to communicate with ANGELA.",
+  "humanDescription" : "If I can reboot this station ANGELA should come back online!",
+  "hylotlDescription" : "This console will allow me to communicate with ANGELA. I need to reboot it first.",
+  "novakidDescription" : "Time to reboot this station so I can talk to ANGELA.",
+
+  "inventoryIcon" : "fu_sciencetechstationTier0icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "fu_sciencetechstationTier0.png:<color>.<frame>", "fullbright" : true }, { "image" : "fu_sciencetechstationTier0lit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, -8],
+      "frames" : 32,
+      "animationCycle" : 3.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "offeredQuests" : [ "gaterepair" ],
+
+  "animation" : "/objects/ship/techstation.animation",
+
+
+
+
+
+  "interactData" : "/zb/newSail/newSail.config",
+  "scripts" : [ "/objects/scripts/customtechstation.lua", "/objects/scripts/customtechstation.lua", "/scripts/wakeUpName.lua" ],
+
+  "chatPortrait" : "/ai/portraits/angela_portrait.png:yell.1",
+  "dialog" : {
+    "wakeUp" : [
+      [ "Rebooting...", "/ai/portraits/angela_portrait.png:unique.1" ],
+	  [ "Hello, <entityName>.", "/ai/portraits/angela_portrait.png:talk.0" ],
+      [ "I am ^#a7d9e8;A.N.G.E.L.A^white;, your advisor and secretary. I manage the maintainance of your wellbeing and your ship.", "/ai/portraits/angela_portrait.png:talk.1" ],
+      [ "I am also programmed to offer you various information, so please have no worry in speaking with me.", "/ai/portraits/angela_portrait.png:talk.2" ],
+      [ "However, before you ask, where are we now, I must say two things.", "/ai/portraits/angela_portrait.png:talk.3" ],
+	  [ "Earth was attacked by an unknown force, and was subsequently annihilated. You can't go back.", "/ai/portraits/angela_portrait.png:talk.0" ],
+      [ "The ship's navigation systems were damaged during escape. Our location is currently unknown.", "/ai/portraits/angela_portrait.png:talk.1" ]
+    ],
+    "wakePlayer" : [
+      [ "System is down, please reboot.", "/ai/portraits/angela_portrait.png:unique.0"],
+      [ "Please reboot the system.", "/ai/portraits/angela_portrait.png:unique.1"],
+      [ "Reboot process remains uninitiated.", "/ai/portraits/angela_portrait.png:unique.2"],
+      [ "To reconnect with A.N.G.E.L.A please reboot.", "/ai/portraits/angela_portrait.png:unique.3" ],
+      [ "Rebooting has shown to improve ship interaction satisfaction levels by 73%.", "/ai/portraits/angela_portrait.png:unique.5"],
+      [ "Rebooting requires a conscious entity to interact with the A.N.G.E.L.A console.", "/ai/portraits/angela_portrait.png:unique.7" ]
+    ]
+  },
+
+  "uniqueId" : "techstation"
+}

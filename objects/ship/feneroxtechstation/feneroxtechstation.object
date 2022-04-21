@@ -1,0 +1,73 @@
+{
+  "objectName" : "feneroxtechstation",
+  "printable" : false,
+  "rarity" : "Common",
+
+  "interactAction" : "ScriptPane",
+  "interactData" : "/zb/newSail/newSail.config",
+
+  "category" : "decorative",
+
+  "description" : "This tech station allows me to communicate with A.N.G.E.L.A and enable tech!",
+  "shortdescription" : "Tech Station",
+  "race" : "kirhos",
+
+  "lightColor" : [61, 88, 102],
+  "lightPosition" : [-1, 0],
+
+  "apexDescription" : "A tech station. I can enable tech and talk to A.N.G.E.L.A through this.",
+  "floranDescription" : "Floran use thisss for magiccc and talk to A.N.G.E.L.A!",
+  "glitchDescription" : "Informative. This tech station allows me to choose tech and talk to A.N.G.E.L.A.",
+  "humanDescription" : "A tech station. Allows me to communicate with A.N.G.E.L.A and enable tech!",
+  "hylotlDescription" : "This tech station enables tech and allows me to communicate with A.N.G.E.L.A.",
+  "kirhosDescription" : "I can use this to load up on augs or chat with A.N.G.E.L.A, if I get lonely.",
+
+  "inventoryIcon" : "apexrecordplayericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "feneroxtechstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "feneroxtechstationlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, -8],
+      "frames" : 32,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "offeredQuests" : [ "gaterepair" ],
+
+  "animation" : "/objects/ship/techstation.animation",
+  "scripts" : [
+    "/objects/spawner/techstation.lua",
+    "/objects/scripts/customtechstation.lua",
+	"/scripts/wakeUpName.lua"
+  ],
+  "scriptDelta" : 20,
+  "shipPetType" : "feneroxpet",
+  "spawnOffset" : [2, -1],
+
+  "chatPortrait" : "/ai/portraits/angela_portrait.png:yell.1",
+  "dialog" : {
+    "wakeUp" : [
+      [ "Rebooting...", "/ai/portraits/angela_portrait.png:unique.1" ],
+	  [ "Hello, <entityName>.", "/ai/portraits/angela_portrait.png:talk.0" ],
+      [ "I am ^#a7d9e8;A.N.G.E.L.A^white;, your advisor and secretary. I manage the maintainance of your wellbeing and your ship.", "/ai/portraits/angela_portrait.png:talk.1" ],
+      [ "I am also programmed to offer you various information, so please have no worry in speaking with me.", "/ai/portraits/angela_portrait.png:talk.2" ],
+      [ "However, before you ask, where are we now, I must say two things.", "/ai/portraits/angela_portrait.png:talk.3" ],
+	  [ "Earth was attacked by an unknown force, and was subsequently annihilated. You can't go back.", "/ai/portraits/angela_portrait.png:talk.0" ],
+      [ "The ship's navigation systems were damaged during escape. Our location is currently unknown.", "/ai/portraits/angela_portrait.png:talk.1" ]
+    ],
+    "wakePlayer" : [
+      [ "System is down, please reboot.", "/ai/portraits/angela_portrait.png:unique.0"],
+      [ "Please reboot the system.", "/ai/portraits/angela_portrait.png:unique.1"],
+      [ "Reboot process remains uninitiated.", "/ai/portraits/angela_portrait.png:unique.2"],
+      [ "To reconnect with A.N.G.E.L.A please reboot.", "/ai/portraits/angela_portrait.png:unique.3" ],
+      [ "Rebooting has shown to improve ship interaction satisfaction levels by 73%.", "/ai/portraits/angela_portrait.png:unique.5"],
+      [ "Rebooting requires a conscious entity to interact with the A.N.G.E.L.A console.", "/ai/portraits/angela_portrait.png:unique.7" ]
+    ]
+  },
+
+  "uniqueId" : "techstation"
+}
