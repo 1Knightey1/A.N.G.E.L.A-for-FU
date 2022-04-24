@@ -294,5 +294,24 @@
 			"portraitFrames" : "portraits/angela_portrait.png",
 			"staticFrames" : "staticlastree.png"	
 		}
+	},
+	
+	{
+	"op" : "add",
+	"path" : "/species/kitsune",
+	"value" : {
+	  "aiFrames" : "angela.png",
+	  "portraitFrames" : "portraits/angela_portrait.png",
+	  "staticFrames" : "statickitsune.png"	
 	}
+  },
+  {
+	"op" : "add",
+	"path" : "/species/halfsea",
+	"value" : {
+	  "aiFrames" : "angela.png",
+	  "portraitFrames" : "portraits/angela_portrait.png",
+	  "staticFrames" : "statichalfsea.png"	
+	}
+  }	
 ]
