@@ -313,5 +313,51 @@
 	  "portraitFrames" : "portraits/angela_portrait.png",
 	  "staticFrames" : "statichalfsea.png"	
 	}
-  }	
+  },
+  
+  {
+	"op" : "add",
+	"path" : "/species/dragon",
+	"value" : {
+		"aiFrames" : "angela.png",
+		"portraitFrames" : "portraits/angela_portrait.png",
+		"staticFrames" : "staticdragon.png"	
+	}
+  },
+  {
+	"op" : "add",
+	"path" : "/species/lamia",
+	"value" : {
+		"aiFrames" : "angela.png",
+		"portraitFrames" : "portraits/angela_portrait.png",
+		"staticFrames" : "staticlamia.png"
+	}
+  },
+  {
+	"op" : "add",
+	"path" : "/species/neki",
+	"value" : {
+		"aiFrames" : "angela.png",
+		"portraitFrames" : "portraits/angela_portrait.png",
+		"staticFrames" : "staticneki.png"
+	}
+  },
+  {
+	"op" : "add",
+	"path" : "/species/mechineki",
+	"value" : {
+		"aiFrames" : "angela.png",
+		"portraitFrames" : "portraits/angela_portrait.png",
+		"staticFrames" : "staticmechineki.png"
+	}
+  },
+  {
+	"op" : "add",
+	"path" : "/species/shoggoth",
+	"value" : {
+		"aiFrames" : "angela.png",
+		"portraitFrames" : "portraits/angela_portrait.png",
+		"staticFrames" : "staticshoggoth.png"
+	}
+  }
 ]
