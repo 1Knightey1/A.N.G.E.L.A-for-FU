@@ -1,0 +1,18 @@
+{
+  "id" : "lobotomyflyer",
+  "title" : "Flyer of Partipation",
+  "description" : "This flyer congratulates the chosen for experiment of Protectorate and Lobotomy Corp.",
+  "icon" : "lobotomyflyer.png",
+  "contentPages" : [
+  " ^#B0C4DE;\"Hello, dear cadet of Terrene Protectorate.
+  We gladly inform you that you have been chosen for an elaboration between Terrene Protectorate and Lobotomy Corporation. You will be provided with Autonomous Next Gen Electronic Lifeform Assistant, also known as 'A.N.G.E.L.A' which will help you through your study and work as Protector.
+  All questions regarding collaboration and A.N.G.E.L.A you can ask at the... 
+  ^white;<further text is missing due to flyer being damaged>\""
+  
+    ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 50,
+	"radioMessagesOnPickup" : [ "pickuplobotomyflyer" ]
+  }
+}
