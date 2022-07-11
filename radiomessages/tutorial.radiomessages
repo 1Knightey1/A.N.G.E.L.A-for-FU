@@ -99,6 +99,11 @@
   "type" : "tutorial",
   "text" : "I'm still curious, how did you come back alive when your life readings were gone for minutes after the explosion?"
   },
+
+  "pickuplobotomyflyer" : {
+  "type" : "tutorial",
+  "text" : "Do you remember your first day in Protectorate? That day, I became your advisor. Maybe even a friend, who knows?\nI've yet to understand the concept of \"friends\""
+  },  
   
 // on encountering certain things
 
